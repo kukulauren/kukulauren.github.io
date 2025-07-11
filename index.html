@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khin Myat Noe | AI Engineer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="assets/me.png" alt="Khin Myat Noe headshot" class="headshot">
+      <h1>Khin Myat Noe</h1>
+      <p class="subtitle">AI Engineer</p>
+    </header>
+    <section>
+      <h2>👩‍💻 About Me</h2>
+      <p>I am an AI Engineer with experience in designing, developing, and deploying AI-powered applications. My expertise spans across natural language processing, computer vision, and MLOps. I enjoy working on innovative projects and collaborating with cross-functional teams to deliver impactful solutions.</p>
+    </section>
+    <section>
+      <h2>🛠️ Skills</h2>
+      <ul class="skills-list">
+        <li><strong>Programming Languages:</strong> Python, JavaScript, SQL, PHP</li>
+        <li><strong>Frameworks & Libraries:</strong> PyTorch, TensorFlow, scikit-learn, Keras, OpenCV, YOLO, Hugging Face Transformers</li>
+        <li><strong>Data Science:</strong> Pandas, NumPy, Matplotlib, Seaborn</li>
+        <li><strong>MLOps:</strong> FastAPI, Flask, Streamlit, Git, CI/CD</li>
+        <li><strong>Cloud:</strong> AWS</li>
+        <li><strong>Other:</strong> REST APIs, Web Scraping, Data Visualization</li>
+      </ul>
+    </section>
+    <section>
+      <h2>🚀 Projects</h2>
+      <div class="projects">
+        <div class="project">
+          <h3>1. Machine Learning project</h3>
+          <ul>
+            <li><a href="https://github.com/kukulauren/ml-projects/tree/main/retail_analysis" target="_blank">Retail analysis</a>
+              <ul>
+                <li>Performed comprehensive exploratory data analysis (EDA) on retail sales data to uncover revenue, customer, and product trends.</li>
+                <li>Visualized monthly revenue trends, identified seasonality, and highlighted top/bottom performing regions and customers.</li>
+                <li>Analyzed customer repeat behavior, product preferences, and reorder intervals for business insights.</li>
+                <li>Delivered actionable summary tables and charts to support data-driven decision making.</li>
+                <li>Prophet model for time-series forecast</li>
+              </ul>
+            </li>
+            <li><a href="https://github.com/kukulauren/ml-projects/tree/main/stock_prediction" target="_blank">Stock Prediction</a>
+              <ul>
+                <li>Collected and preprocessed historical stock price data for time series analysis for Meta.</li>
+                <li>Engineered features such as moving averages, RSI, and lagged returns to improve predictive performance.</li>
+                <li>Built LSTM and evaluated ARIMA machine learning models to forecast future stock prices.</li>
+                <li>Visualized predictions and model performance, providing actionable insights for investment strategies.</li>
+              </ul>
+            </li>
+            <li><a href="https://github.com/kukulauren/ml-kaggle/blob/main/sale_prediction/sticker-sale-prediction.ipynb" target="_blank">Sticker Sale Prediction</a>
+              <ul>
+                <li>Performed exploratory data analysis (EDA) on sticker sales, including category distribution and temporal sales trends</li>
+                <li>Applied time series-aware feature engineering and categorical data handling</li>
+                <li>Visualized sales trends across time, such as monthly, weekly, and category-based patterns</li>
+                <li>Implemented model training and fine-tuning using K-Fold cross-validation</li>
+                <li>Evaluated and compared multiple regressors: CatBoostRegressor, XGBRegressor, and RandomForestRegressor</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>2. 3D segmentation models</h3>
+          <ul>
+            <li>Developed a complete 3D medical image segmentation pipeline using U-Net architecture, SAM, and YOLO for testing</li>
+            <li>Built with PyTorch, PyTorch Lightning, TorchIO, and NiBabel</li>
+            <li>Trained to segment six classes: background, upper jaw, lower jaw, upper teeth, lower teeth, and artery</li>
+            <li>Dataset sourced from Asian patient CT scans</li>
+            <li>Integrated with a Hugging Face demo for live inference: <a href="https://huggingface.co/spaces/Kukulauren/medical_imaging_segmentation" target="_blank">Live Demo</a></li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>3. Sustainable project</h3>
+          <ul>
+            <li><a href="https://github.com/kukulauren/plant_vision_final" target="_blank">Agriculture</a>
+              <ul>
+                <li>Multi-functional APIs to support farming practices</li>
+                <li>Plant Disease Identification using computer vision to detect leaf-based diseases</li>
+                <li>Crop Recommendation System built with a Random Forest Classifier based on soil and environmental data</li>
+                <li>Local Language Chatbot powered by OpenAI, integrated with LangChain and Chroma VectorStore for region-specific Q&A and support</li>
+                <li>End-to-end system including data preprocessing, model training, API development, and chatbot integration</li>
+                <li>Focused on accessibility for rural users through multilingual support and domain-specific knowledge retrieval</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="project">
+          <h3>4. Dataset</h3>
+          <ul>
+            <li><a href="https://github.com/MinSiThu/Myanmar-Agriculture-1K?tab=readme-ov-file" target="_blank">Myanmar-Agriculture-1K</a>
+              <ul>
+                <li>Curated the first open-source Burmese-language agriculture QA dataset (1,053 pairs) focused on Myanmar’s key crops, cultivation methods, and climate impacts</li>
+                <li>Designed to support NLP research, local chatbot development, and Burmese LLM fine-tuning</li>
+                <li>Published on GitHub, Hugging Face, Zenodo, and Kaggle</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>📈 Experience</h2>
+      <div class="experience">
+        <div class="exp-item">
+          <h4>Enterprise NLP intern, <a href="https://www.linkedin.com/company/tee-htwin/posts/?feedView=all">Tee Htwin</a></h4>
+          <ul>
+            <li>Contributed to end-to-end development of NLP solutions using retrieval-augmented generation (RAG) pipelines and fine-tuned LLMs. Built ETL pipelines for downstream task integration, optimized vector store usage, and implemented agentic workflows for production-ready automation.</li>
+            <li>Tech stack: Flask, LangChain, OpenAI, Anthropic, xAI, AWS, streamlit, cronjob</li>
+          </ul>
+        </div>
+        <div class="exp-item">
+          <h4>IT intern, <a href="https://mymyeo.com">Myanmar Youth Empowerment Opportunities</a></h4>
+          <ul>
+            <li>Analyzed large-scale datasets to extract actionable insights and support data-driven decisions.</li>
+            <li>Built and improved predictive models for internal use cases.</li>
+            <li>Enhanced chatbot responsiveness and accuracy through rule-based logic.</li>
+            <li>Increased automated test coverage across the organization from 35% to 42%.</li>
+            <li>Conducted in-depth analysis and refinement of deterministic chatbot behavior.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h2>📚 Education</h2>
+      <ul>
+        <li><strong>BSc in Computer Science</strong> — <a href="https://www.uopeople.edu/" target="_blank">University of the People</a></li>
+      </ul>
+    </section>
+    <section>
+      <h2>🏆 Certifications</h2>
+      <ul>
+        <li><a href="https://coursera.org/share/14e2ef5559cad6481680122927bc12a6" target="_blank">Deep Learning Specialization</a></li>
+        <li><a href="https://coursera.org/share/0cc37c27dc071a08fa68ad1f71fa5559" target="_blank">Machine Learning Specialization</a></li>
+        <li><a href="https://coursera.org/share/11cf6cb73f3274dedd1fad3e8ebe6ce8" target="_blank">Generative AI with LLM</a></li>
+        <li>Advanced data science (Elysian)</li>
+      </ul>
+    </section>
+    <section>
+      <h2>📬 Contact</h2>
+      <ul>
+        <li><strong>Email:</strong> <a href="mailto:kukulauren1997@gmail.com">kukulauren1997@gmail.com</a></li>
+        <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/khin-myat-noe-86b98a260/" target="_blank">Khin Myat Noe</a></li>
+      </ul>
+    </section>
+    <footer>
+      <p>Thank you for visiting my portfolio!</p>
+    </footer>
+  </div>
+</body>
+</html>

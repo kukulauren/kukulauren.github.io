@@ -1,0 +1,113 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background: linear-gradient(120deg, #f7f9fb 0%, #e3e9f7 100%);
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 6px 32px rgba(0,0,0,0.10);
+  padding: 40px 32px 32px 32px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 36px;
+}
+
+.headshot {
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #b3c6e0;
+  margin-bottom: 18px;
+  box-shadow: 0 4px 16px rgba(42,77,105,0.10);
+  background: #e3e9f7;
+}
+
+h1 {
+  margin: 0 0 8px 0;
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #2a4d69;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  color: #4f6d7a;
+  font-size: 1.15rem;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+section {
+  margin-bottom: 36px;
+}
+
+h2 {
+  color: #2a4d69;
+  margin-top: 0;
+  font-size: 1.25rem;
+  border-bottom: 2px solid #e0e7ef;
+  padding-bottom: 4px;
+  letter-spacing: 0.5px;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+.skills-list li {
+  margin-bottom: 7px;
+}
+
+.projects .project {
+  margin-bottom: 22px;
+}
+
+.experience .exp-item {
+  margin-bottom: 20px;
+}
+.org {
+  color: #4f6d7a;
+  font-weight: 500;
+}
+
+footer {
+  text-align: center;
+  color: #888;
+  font-size: 0.98rem;
+  margin-top: 36px;
+}
+
+a {
+  color: #2a4d69;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  text-decoration: underline;
+  color: #1a2d3a;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px 1vw;
+  }
+  h1 {
+    font-size: 1.3rem;
+  }
+  h2 {
+    font-size: 1.05rem;
+  }
+  .headshot {
+    width: 80px;
+    height: 80px;
+  }
+}
