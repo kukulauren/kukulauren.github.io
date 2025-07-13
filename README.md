@@ -23,10 +23,10 @@ I am an AI Engineer with experience in designing, developing, and deploying AI-p
     - Prophet model for time-series forecast
 
 - [Stock Prediction]()
-- Collected and preprocessed historical stock price data for time series analysis for Meta.
-- Engineered features such as moving averages, RSI, and lagged returns to improve predictive performance.
-- Built LSTM and evaluated ARIMA machine learning models to forecast future stock prices.
-- Visualized predictions and model performance, providing actionable insights for investment strategies.
+	- Collected and preprocessed historical stock price data for time series analysis for Meta.
+	- Engineered features such as moving averages, RSI, and lagged returns to improve predictive performance.
+	- Built LSTM and evaluated ARIMA machine learning models to forecast future stock prices.
+	- Visualized predictions and model performance, providing actionable insights for investment strategies.
 
 - [Sticker Sale Prediction](https://github.com/kukulauren/ml-kaggle/blob/main/sale_prediction/sticker-sale-prediction.ipynb)
     - Performed exploratory data analysis (EDA) on sticker sales, including category distribution and temporal sales trends
@@ -37,11 +37,11 @@ I am an AI Engineer with experience in designing, developing, and deploying AI-p
     
     
 ### 2. 3D segmentation models
-Developed a complete 3D medical image segmentation pipeline using U-Net architecture. SAM, and YOLO for testing and 
-Built with PyTorch, PyTorch Lightning, TorchIO, and NiBabel.
-	•	Trained to segment six classes: background, upper jaw, lower jaw, upper teeth, lower teeth, and artery.
-	•	Dataset sourced from Asian patient CT scans.
-	•	Integrated with a Hugging Face demo for live inference.
+Developed a complete 3D medical image segmentation pipeline using U-Net architecture. SAM, and YOLO for testing
+- Built with PyTorch, PyTorch Lightning, TorchIO, and NiBabel.
+- Trained to segment six classes: background, upper jaw, lower jaw, upper teeth, lower teeth, and artery.
+- Dataset sourced from Asian patient CT scans.
+- Integrated with a Hugging Face demo for live inference.
 [Live Demo](https://huggingface.co/spaces/Kukulauren/medical_imaging_segmentation).
 
 ### 3. Sustainable project
@@ -55,12 +55,15 @@ Built with PyTorch, PyTorch Lightning, TorchIO, and NiBabel.
 
 ### 4. Dataset
 - [Myanmar-Agriculture-1K](https://github.com/MinSiThu/Myanmar-Agriculture-1K?tab=readme-ov-file)
-    - Curated the first open-source Burmese-language agriculture QA dataset (1,053 pairs) focused on Myanmar’s key crops, cultivation methods, and climate impacts. Designed to support NLP research, local chatbot development, and Burmese LLM fine-tuning. Published on GitHub, Hugging Face, Zenodo, and Kaggle.
+    - Curated the first open-source Burmese-language agriculture QA dataset (1,053 pairs) focused on Myanmar’s key crops, cultivation methods, and climate impacts.
+    - Designed to support NLP research, local chatbot development, and Burmese LLM fine-tuning.
+    - Published on GitHub, Hugging Face, Zenodo, and Kaggle.
 
 
 ## 📈 Experience
 - **Enterprise NLP intern, [Tee Htwin](https://www.linkedin.com/company/tee-htwin/posts/?feedView=all)**  
-    - Contributed to end-to-end development of NLP solutions using retrieval-augmented generation (RAG) pipelines and fine-tuned LLMs. Built ETL pipelines for downstream task integration, optimized vector store usage, and implemented agentic workflows for production-ready automation.
+    - Contributed to end-to-end development of NLP solutions using retrieval-augmented generation (RAG) pipelines and fine-tuned LLMs.
+    - Built ETL pipelines for downstream task integration, optimized vector store usage, and implemented agentic workflows for production-ready automation.
     - Tech stack: Flask, LangChain, OpenAI, Anthropic, xAI, AWS, streamlit, cronjob
 
 - **IT intern, [Myanmar Youth Empowerment Opportunities](https://mymyeo.com)**
