@@ -80,7 +80,7 @@ Developed a complete 3D medical image segmentation pipeline using U-Net architec
   - Troubleshot CCTV streaming connectivity, RTSP configuration, and Python dependency compatibility to improve system reliability in the target deployment environment.
   - Developed the solution for on-premises operation, supporting local video processing without requiring cloud-based AI inference.
 
-- **AI engineer, [Binary Lab]([https://www.infinityglobals.com/](https://www.binarylab.io/))**
+- **AI engineer, [Binary Lab](https://www.binarylab.io/)**
 
 ## 📚 Education
 - **BSc in Computer Science** — [University of the People](https://www.uopeople.edu/)
