@@ -73,8 +73,18 @@ Developed a complete 3D medical image segmentation pipeline using U-Net architec
   - Increased automated test coverage across the organization from 35% to 42%.
   - Conducted in-depth analysis and refinement of deterministic chatbot behavior.
 
+- **AI engineer, [Infinity Global Solutions](https://www.infinityglobals.com/)**
+  - Developed an on-premises AI-powered CCTV analytics system using Python and YOLO-based computer vision to support the detection of in retail environments.
+  - Integrated CCTV video streams via RTSP with OpenCV and YOLO inference pipelines for video-based object detection and analysis
+  - Configured and optimized the AI inference environment for CPU-based execution on Windows, using PyTorch and the Ultralytics YOLO framework.
+  - Troubleshot CCTV streaming connectivity, RTSP configuration, and Python dependency compatibility to improve system reliability in the target deployment environment.
+  - Developed the solution for on-premises operation, supporting local video processing without requiring cloud-based AI inference.
+
+- **AI engineer, [Binary Lab]([https://www.infinityglobals.com/](https://www.binarylab.io/))**
+
 ## 📚 Education
 - **BSc in Computer Science** — [University of the People](https://www.uopeople.edu/)
+- **MS in Data Science** - [INTI international university](https://newinti.edu.my/)
 
 ## 🏆 Certifications
 - [Deep Learning Specialization](https://coursera.org/share/14e2ef5559cad6481680122927bc12a6)
